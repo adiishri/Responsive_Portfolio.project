@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="style1.css">
+
+    <title>Responsive Portfolio</title>
+</head>
+
+<body>
+    <!--HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="left">Aditi's Portfolio</a>
+
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--HOME SECTION DESIGN-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey there! Myself,</h3>
+            <h1>Aditi Srivastava</h1>
+            <h3>I'm a dedicated and enthusiastic<span> CS
+                    student</span> currently pursuing Bachelor of Computer Applications.</h3>
+            <p><br>My academic journey is fueled by a deep
+                passion for <span class="multiple-text"></span></p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="#" class="btn1">Download Resume</a>
+            <a href="#" class="btn2">Visit Github</a>
+
+
+        </div>
+        <div class="home-img">
+            <img src="aditi.jpeg" alt="">
+        </div>
+    </section>
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="developer.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me..</span></h2>
+            <p><br>A motivated BCA student studing in <span> Shri Ramswaroop Memorial University </span> doing
+                specialization in artificial intelligence currently working as Web Development
+                intern building comprehensive web applications using HTML , CSS and Javascript.</p>
+        </div>
+    </section>
+    <!--SERVICES SECTION DESIGN-->
+    <section class="services" id="services">
+        <h2 class="heading1">My <span>Services-</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3> Web Development</h3>
+                <p>Developed web applications using modern technologies, such as HTML, CSS, JavaScript, and ASP.NET, to enhance user experience and functionality.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3> Android Development</h3>
+                <p>Designed and developed Android applications using Java, implementing intuitive user interfaces and seamless navigation to enhance user experienc</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-gear"></i>
+                <h3> Machine Learning</h3>
+                <p>Analyzed complex data sets to identify trends and patterns, enabling data-driven decision-making and strategic planning using ML</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span> Projects </span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="p1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Social-media Dashboard</h4>
+                    <p>Developed a dashboard that aggregates social media feeds and displays metrics.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+                <div class="portfolio-box">
+                    <img src="p2.webp" alt="">
+                    <div class="portfolio-layer">
+                        <h4>E-commerce Website</h4>
+                        <p>Built a simple online store with product listings, shopping cart, and checkout features.</p>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+
+
+                    </div>
+                </div>
+                    <div class="portfolio-box">
+                        <img src="p3.webp" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Personal Portfolio </h4>
+                            <p>Created a personal portfolio website to showcase my  skills, projects, and resume.</p>
+                            <i class="fa-solid fa-up-right-from-square"></i>
+
+                        </div>
+                     </div>
+                </div>
+    </section>
+    <!--CONTACT SECTION DESIGN-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me </span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="15" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    <!--FOOTER DESIGN-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @adiishri | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <!--SCROLL REVEAL JS-->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--MAIN JS-->
+    <script src="script.js"></script>
+</body>
+</html>
