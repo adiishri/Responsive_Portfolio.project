@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000; /* Background color for the body */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    justify-content: center; /* Center elements vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 20px 0; /* Add padding to top and bottom */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+h1 {
+    color: beige; /* Beige color for better contrast on black background */
+    margin: 0 0 20px 0; /* Remove top margin and set bottom margin */
+    font-size: 36px;
+    text-align: center; /* Center text */
+}
+
+.container {
+    background-color: #6e9aa5; /* Calculator background color */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    width: 320px; /* Fixed width */
+    max-width: 100%; /* Responsive width */
+}
+
+.row {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /* Ensure buttons are evenly spaced */
+}
+
+.input {
+    width: 100%;
+    padding: 15px;
+    font-size: 28px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: right;
+    color: #444;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.button {
+    flex: 1;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 60px;
+}
+
+.button:hover {
+    background-color: #d6d8db;
+}
+
+.button:active {
+    background-color: #c8cbcf;
+    transform: scale(0.98);
+}
+
+.button.operation {
+    background-color: #4a90e2;
+    color: white;
+}
+
+.button.operation:hover {
+    background-color: #4281cf;
+}
+
+.button.operation:active {
+    background-color: #3974ba;
+}
+
+.button.equal {
+    background-color: #e14c4c;
+    color: white;
+    flex: 1 0 100%; /* Full row width */
+}
+
+.button.equal:hover {
+    background-color: #cc4444;
+}
+
+.button.equal:active {
+    background-color: #b33d3d;
+}
+
+.button.ac {
+    background-color: #f5a623;
+    color: white;
+}
+
+.button.ac:hover {
+    background-color: #e09a21;
+}
+
+.button.ac:active {
+    background-color: #cc8c1f;
+}
